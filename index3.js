@@ -35,4 +35,4 @@ const makeCommits = async (n) => {
   } while (true);
 };
 
-makeCommits(10); // Create 100 commits
+makeCommits(90); // Create 100 commits
