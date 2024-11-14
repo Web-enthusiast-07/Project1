@@ -18,7 +18,7 @@ const makeCommits = async (n) => {
   if (n === 0) return simpleGit().push();
 
   // Generate random date within 2022
-  const year = 2022;
+  const year = 2020;
   const month = random.int(0, 11); // 0 (Jan) to 11 (Dec)
   const day = random.int(1, 31); // 1 to avoid generating Feb 30th
 
